@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="zN3-pd-ahR">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="812"/>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="hxt-9q-SFA"/>
                                 </connections>
@@ -26,10 +26,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="zN3-pd-ahR" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="55j-id-TiO"/>
+                            <constraint firstItem="zN3-pd-ahR" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" constant="4" id="55j-id-TiO"/>
                             <constraint firstItem="zN3-pd-ahR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="D1J-rZ-o7H"/>
-                            <constraint firstItem="zN3-pd-ahR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="J1M-uM-2V5"/>
-                            <constraint firstItem="zN3-pd-ahR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mjI-Yu-OWf"/>
+                            <constraint firstItem="zN3-pd-ahR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="88" id="J1M-uM-2V5"/>
+                            <constraint firstItem="zN3-pd-ahR" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="VkL-xa-ZUE"/>
+                            <constraint firstItem="zN3-pd-ahR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="mjI-Yu-OWf"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="N6A-Vf-2cv"/>
@@ -40,6 +41,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="918.84057971014499" y="61.607142857142854"/>
+        </scene>
+        <!--Wiki View Controller-->
+        <scene sceneID="M7n-vT-Iw9">
+            <objects>
+                <viewController id="Rva-Q9-Xi5" customClass="WikiViewController" customModule="CapitalCities" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sIp-ea-dWW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="dhR-3I-ugX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gD8-a8-PKE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1749" y="62"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="KI4-Gr-aCz">
